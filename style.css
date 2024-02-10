@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: 'spartan',sans-serif;
 }
+html,body{
+    height:100%;
+    width: 100%;
+}
 h1{
     font-size: 50px;
     line-height: 64px;
@@ -47,9 +51,6 @@ button.normal{
     border: none;
     outline: none;
     transition: 0.2s;
-}
-body{
-    width: 100%;
 }
 /* HEADER START */
  #header {
